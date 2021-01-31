@@ -674,6 +674,7 @@ button, button:hover, button:active {
 .mobile-img {
   display: block;
   margin-left: 45px;
+  align-self: flex-end;
 }
 
 .mobile-content {
@@ -1115,7 +1116,7 @@ button, button:hover, button:active {
   display: none;
 }
 
-@media screen and (max-device-width: 480px) {
+@media screen and (max-width: 480px) {
   .header-arrow-left, .header-arrow-right {
     display: none;
   }
